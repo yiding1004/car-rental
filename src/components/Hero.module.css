@@ -1,0 +1,98 @@
+.hero__section {
+  background-color: #f8f8f8;
+  height: 97vh;
+  width: 100%;
+  top: 0;
+  position: relative;
+}
+
+.bg__shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.heroContent__text {
+  color: #010103;
+  font-family: Rubik, sans-serif;
+  max-width: 50rem;
+  margin-top: 5rem;
+  z-index: 3;
+}
+
+.heroContent__text h4 {
+  font-size: 2.2rem;
+}
+
+.heroContent__text h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.3rem;
+  margin-top: 1rem;
+}
+
+.heroContent__text h1 span {
+  color: #ff4d30;
+}
+
+.heroContent__text p {
+  color: #706f7b;
+  font-family: Rubik, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+
+.heroContent__text__btns {
+  display: flex;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.heroContent__carImg {
+  margin-top: 5rem;
+  position: absolute;
+  right: 0;
+  width: 65%;
+  z-index: 2;
+}
+
+.scroll__up {
+  align-items: center;
+  background-color: #ff4d30;
+  border: 3px solid #fff;
+  bottom: 5rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 2.5rem;
+  height: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  position: fixed;
+  right: 5rem;
+  text-align: center;
+  width: 2rem;
+  z-index: 20;
+}
+
+.show__scroll {
+  display: flex;
+}

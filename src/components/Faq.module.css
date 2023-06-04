@@ -1,0 +1,88 @@
+.faq__section {
+  background-image: url("/src/images/faq/car.png");
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 10rem 0;
+}
+
+.faq__container {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.faq__container__title {
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 80rem;
+  text-align: center;
+}
+
+.faq__container__title h5 {
+  font-size: 2.2rem;
+}
+
+.faq__container__title h2 {
+  font-size: 4.2rem;
+  margin-bottom: 1.7rem;
+}
+
+.faq__container__title p {
+  color: #706f7b;
+  font-size: 1.6rem;
+}
+
+.all__questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__questions__box {
+  background-color: #fff;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  color: #010103;
+  cursor: pointer;
+  width: 80rem;
+}
+
+.faq__question {
+  align-items: center;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 4.5rem;
+  transition: 0.15s ease;
+}
+
+.faq__questions__box.active .faq__question {
+  background-color: #ff4d30;
+  box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+  color: #fff;
+}
+
+.faq__question p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.faq__question i {
+  font-size: 2rem;
+}
+
+.faq__answer {
+  color: #706f7b;
+  font-family: Rubik, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 4.5rem;
+  transition: 0.4s ease;
+}
+
+.faq__questions__box.active .faq__answer {
+  max-height: 20rem;
+  padding: 2.8rem 4.5rem;
+}

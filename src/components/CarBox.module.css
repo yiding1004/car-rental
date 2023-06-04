@@ -1,0 +1,63 @@
+.cars__box {
+  display: flex;
+  gap: 11rem;
+  justify-content: space-between;
+}
+
+.car__img__box {
+  position: relative;
+  width: 50rem;
+}
+
+.car__img__box img {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.pick__description {
+  width: 25rem;
+}
+
+.pick__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.pick__description__price {
+  align-items: center;
+  background-color: #ff4d30;
+  color: #fff;
+  display: flex;
+  font-size: 1.8rem;
+  gap: 1.5rem;
+  padding: 0.3rem 1.9rem;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.pick__description__price span {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.pick__description__table {
+  display: grid;
+  font-size: 1.4rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.pick__description__table__col {
+  border-left: 2px solid #706f7b;
+  border-right: 2px solid #706f7b;
+  border-bottom: 2px solid #706f7b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 0.9rem 0.5rem;
+  text-align: center;
+}
+
+.pick__description__table__col span:first-child {
+  border-right: 2px solid #706f7b;
+}

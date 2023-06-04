@@ -1,0 +1,35 @@
+.plan__section {
+  background-color: #fff;
+  padding: 5.3rem 0;
+}
+
+.plan__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan__container__title {
+  color: #010103;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.plan__container__title h3 {
+  font-family: Rubik, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.plan__container__title h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 4.2rem;
+  margin: 1.3rem 0 3rem;
+}
+
+.plan_container__boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 3.7rem;
+  padding: 0 3rem;
+}

@@ -1,0 +1,38 @@
+.banner__section {
+  background-color: #2d2d2d;
+  display: flex;
+  height: auto;
+  margin: 8rem 0;
+  padding: 6rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.banner__content {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner__content__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.banner__content__text h2 {
+  font-size: 5.2rem;
+  line-height: 1.3;
+}
+
+.banner__content__text p {
+  font-size: 2.4rem;
+}
+
+.banner__content__text p span {
+  color: #ff4d30;
+  font-weight: 500;
+}

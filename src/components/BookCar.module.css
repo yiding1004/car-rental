@@ -1,0 +1,74 @@
+.book__section {
+  background: linear-gradient(180deg, #f8f8f8 20%, #fff 80%);
+  position: relative;
+}
+
+.book__box {
+  background-color: #fff;
+  background-image: url(/src/images/book-car/book-bg.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.7rem;
+  height: auto;
+  padding: 4.5rem 5.5rem 6.5rem;
+  position: relative;
+  margin: 0 auto 10rem;
+  z-index: 4;
+}
+
+.box__form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.book__box h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.control__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.control__group i,
+label b {
+  color: #ff4d30;
+}
+
+.control__group label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.control__group select {
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  color: #ababab;
+  font-family: Rubik, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  outline: none;
+  padding: 1.2rem 1.3rem;
+}
+
+.control__group input {
+  height: 46px;
+  border: 1px solid #ccd7e6;
+  color: #878585;
+  outline: none;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+}
