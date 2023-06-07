@@ -7,6 +7,10 @@ import './App.css';
 import HomePage from './pages/Home';
 import RootLayout from './pages/Root';
 import AboutPage from './pages/About';
+import ModelsPage from './pages/Models';
+import TestimonialsPage from './pages/Testimonials';
+import TeamPage from './pages/Team';
+import ContactPage from './pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -18,10 +22,22 @@ const router = createBrowserRouter([
         path: 'about',
         element: <AboutPage />
       },
-      // {
-      //   path: 'models',
-      //   element: <NewEventPage />
-      // },
+      {
+        path: 'models',
+        element: <ModelsPage />
+      },
+      {
+        path: 'testimonials',
+        element: <TestimonialsPage />
+      },
+      {
+        path: 'team',
+        element: <TeamPage />
+      },
+      {
+        path: 'contact',
+        element: <ContactPage />
+      }
     ],
   }
   

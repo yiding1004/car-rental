@@ -23,16 +23,18 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="model__link">Vehicle Models</Link>
+              <Link className="model__link" to="/models">
+                Vehicle Models
+              </Link>
             </li>
             <li>
-              <Link className="testi__link">Testimonials</Link>
+              <Link className="testi__link" to="/testimonials">Testimonials</Link>
             </li>
             <li>
-              <Link className="team__link">Our Team</Link>
+              <Link className="team__link" to="/team">Our Team</Link>
             </li>
             <li>
-              <Link className="contact__link">Contact</Link>
+              <Link className="contact__link" to="/contact">Contact</Link>
             </li>
           </ul>
           <div className={classes.navbar__buttons}>

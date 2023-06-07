@@ -90,11 +90,20 @@
 }
 
 .button.submit__email {
-  box-shadow: 0 10px 15px 0 rgba(255,83,48,.25);
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
   padding: 1.5rem 2.5rem;
   width: 100%;
 }
 
 .button.submit__email:hover {
-  box-shadow: 0 10px 15px 0 rgba(255,83,48,.4);
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.4);
+}
+
+.button.book__ride {
+  font-size: 1.8rem;
+}
+
+.button.send__message {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
